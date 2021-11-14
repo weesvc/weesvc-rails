@@ -4,4 +4,5 @@
 .gitignore
 .idea/
 Dockerfile
+log/*.log
 db/*.sqlite3
