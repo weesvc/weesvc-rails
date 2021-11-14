@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root to: redirect("/api/hello")
 
   namespace :api do
-    resources :hello do
+    resources :hello, only: [:index] do
     end
     resources :places do
     end
